@@ -547,6 +547,8 @@
 
 
 
+
+
 //setnew
 // let guestList = new Set(
 //     list1=["alice@gmail.com", "bob@yahoo.fr", "charle@outlook.com"],
@@ -564,3 +566,171 @@
 // guestList.delete("deni@gmail.com")
 // console.log(guestList)
 // console.log(Array.from(guestList))
+
+
+
+
+
+
+//
+
+
+
+
+
+
+//1
+// let demande = prompt('entrer votre nom')
+// console.log("Bojour " + demande)
+
+
+
+//2
+// let demande1 =parseInt(prompt('entrer le premier nombre'))
+// let demande2 =parseInt(prompt('entrer le deuxieme nombre '))
+// let resultat
+// demande1=parseInt(demande1)
+// demande2=parseInt(demande2)
+// resultat=demande1+demande2
+// console.log(resultat)
+
+
+//3
+// let demande = prompt('entrer un nombre')
+// if(demande==0){
+//     console.log('le nombre est nul')
+// }else if (demande%2==0){
+//     console.log('le nombre est alors pair')
+// }else{
+//     console.log('le nombre est impair')
+// }
+
+
+
+//
+
+
+
+//4
+// for(let i=0; i<=10; i++){
+//     console.log(i)
+// }
+
+
+
+//5
+// let a =10
+// while(a>0){
+//     a--
+//     console.log(a)
+// }
+
+
+
+//6
+// let nombre = prompt('entrer un nombre')
+// let r
+// for(let i = 0; i<=10; i++){
+//     r = nombre * i
+//     console.log(r)
+// }
+
+
+
+//7
+// let a = prompt('entrer le premier nombre')
+// let b = prompt('entrer le deuxieme nombre')
+// let c = prompt('entrer le troixieme nombre')
+// if(a>b && a>c){
+//     console.log(a)
+// }else if(b>a && b>c){
+//     console.log(b)
+// }else{
+//     console.log(c)
+// }
+
+
+
+//8
+// let mots = prompt('entrer un nombre')
+// let r
+// r = mots.length
+// console.log(r)
+
+
+
+//9
+// let mot = prompt('entrer un mots')
+// for(let i =0 ; i<mot.length ; i++) {
+//     console.log(mot[i])
+// }
+
+
+
+
+//10
+// let a= 0
+// for(let i=0 ; i<=100 ; i++){
+//     a=a+i
+// }
+// console.log(a)
+
+
+
+//11
+// let tableau =['manger','nager','dormir',4,5] 
+// console.log(tableau[0])
+// console.log(tableau[1])
+// console.log(tableau[2])
+// console.log(tableau[3])
+// console.log(tableau[4])
+
+
+
+
+
+// let monMap = new Map([
+//     ['nom','Coulibaly'],
+//     ['prenom','Mouna']
+// ])
+// monMap.set('maimouna',{
+//     'poste':'pdg',
+//     'toi':'moi',
+// })
+// monMap.set('nouvelle',{
+//     'vous':'ils'
+// })
+// monMap.delete('nouvelle')
+// console.log(monMap)
+
+
+// l = [1,2,3,4]
+// function sum_list(...numbers){
+//     let s = 0
+//     numbers.forEach(numbers=>{
+//         s += numbers
+//     })
+//     return s
+// }
+// sum_list(...l)
+// console.log(sum_list(...l))
+
+
+
+
+// function sumlist(numbers){
+//     let sum = 0;
+//     for(let i=0; i < numbers.length; i++){
+//         sum += numbers[i]
+//     }
+//     return sum;
+// }
+// console.log(sumlist([1,2,3,4]))
+
+
+// let h1 = document.querySelector('h1')
+// console. log(h1)
+
+let helloword = document.createElement('div')
+helloword.textContent = 'hello world'
+document.body.append(helloword)
